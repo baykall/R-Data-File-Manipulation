@@ -14,7 +14,7 @@ in the beginning. Now you can use any of the functions in the file_ops.
 
 Some functions you can use:
 
-<code>copy_paste_filefile_name,new_file_name)<code> 
+<code>copy_paste_file(file_name,new_file_name)<code> 
 
 Copies and pastes the file with a new name to a new location
 
