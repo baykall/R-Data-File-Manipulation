@@ -26,7 +26,7 @@ join_files(people_age,people_nationalities,people_merged,"All","\t","inner",0)
 
 join_files(people_age,people_nationalities,people_merged2,c("FirstName","LastName","Age","ID"),"\t","outer",0)
 #Outer joins the two files, and uses only the specified columns in the output file people_merged. It also puts 0 for the fields that have value NA
-#There is also left and right join options suported. You can see the difference between them here 
+#There is also left and right join options suported. You can see the difference between them here http://stackoverflow.com/questions/1299871/how-to-join-data-frames-in-r-inner-outer-left-right
 
 add_new_column(people_merged,"Gender","Male","\t")
 #add a new column to people_merged with header and value Male
