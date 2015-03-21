@@ -18,30 +18,30 @@ Some functions you can use:
 
 Copies and pastes the file with a new name to a new location
 
-<code>rearrange_columns(file,new_columns,seperation)<code> 
+<code>rearrange_columns(file,new_columns,separation)<code> 
 
 Rearranges columns of the data file
 
-<code>change_column_names(file,new_columns,seperation)<code>
+<code>change_column_names(file,new_columns,separation)<code>
 
 Changes column names of the data file
 
-<code>change_seperation(file,seperation,new_seperation)<code>
+<code>change_separation(file,separation,new_separation)<code>
 
-Changes seperation string of the data file
+Changes separation string of the data file
 
-<code>remove_duplicates(file,new_file,seperation)<code>
+<code>remove_duplicates(file,new_file,separation)<code>
 
 Removes the duplicate rows of the data file
 
-<code>join_files(file1,file2,new_file,columns,seperation,type,missing_values)<code>
+<code>join_files(file1,file2,new_file,columns,separation,type,missing_values)<code>
 
 Joins two files and creates a third file as a result. There are four options of join: inner, outer, left, right. And the missing values at the end of the join are replaced by missing_values string. 
 
-<code>merge_files(file1,file2,new_file,seperation)<code>
+<code>merge_files(file1,file2,new_file,separation)<code>
 
 Merges two files by adding the rows.
 
-<code>add_new_column(file,new_column_name,new_column_content,seperation)<code>
+<code>add_new_column(file,new_column_name,new_column_content,separation)<code>
 
 Adds a new column to the data file with the same value

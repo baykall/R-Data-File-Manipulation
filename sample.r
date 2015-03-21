@@ -13,9 +13,9 @@ rearrange_columns(people_nationalities,c("ID","FirstName","LastName"),",")
 change_column_names(people_age,c("Age","FirstName","LastName","Job"),",")
 #Changes the column names (only the Occupation column in this example)
 
-change_seperation(people_age,",","\t")
-change_seperation(people_nationalities,",","\t")
-#These will change the seperation string from , to tab delimited
+change_separation(people_age,",","\t")
+change_separation(people_nationalities,",","\t")
+#These will change the separation string from , to tab delimited
 
 people_merged <- "InputFiles/people_merged.txt"
 people_merged2 <- "InputFiles/people_merged2.txt"
