@@ -1,3 +1,0 @@
-FirstName	LastName	Age	Job	ID
-Kevin	Garnett	38	Dancer	171
-Steve	Jobs	62	Cook	234

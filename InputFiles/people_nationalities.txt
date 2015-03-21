@@ -1,4 +1,0 @@
-ID	FirstName	LastName
-234	Steve	Jobs
-289	Frank	Lampard
-171	Kevin	Garnett
